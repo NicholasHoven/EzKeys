@@ -1,10 +1,17 @@
 Configuring the application: 
 
 1. pip install pyperclip
+2. This should install automatically your first time running the program.
 
 Running the application:
 
-1. Click on the EzKeys.bat file to run the program.
+1. Click on the EzKeys.bat shortcut to run the program.
+
+Setting up the key folder: 
+
+1. The key folder should be folder full of .txt files with encryption keys within them.
+2. They need to be seperate files, you cannot have mulitple keys on one .txt file
+3. Our normal key .txt files will work perfectly, just make sure they are all in a folder.
 
 Importing Keys:
 
