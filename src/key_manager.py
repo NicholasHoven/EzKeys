@@ -22,7 +22,6 @@ def get_key(file_path):
 
 def copy_to_clipboard(text):
     pyperclip.copy(text)
-    print("Copied to clipboard:", text)
 
 
 def list_files(directory):
@@ -60,7 +59,5 @@ def read_file_contents(file_path):
 def copy_key(data_path, local_file):
     key_path = get_local_path(data_path, local_file)
     key = get_key(key_path)
-    print(key_path)
-    print(key)
     pyperclip.copy(key)
 
