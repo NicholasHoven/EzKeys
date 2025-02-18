@@ -1,0 +1,19 @@
+Configuring the application: 
+
+1. pip install pyperclip
+
+Running the application:
+
+1. Click on the EzKeys.bat file to run the program.
+
+Importing Keys:
+
+1. Select the "Import" button on the main menu.
+2. Find the file your keys exist in in the File Explorer pop-up.
+3. Click on "Select Folder" in the bottom right section of the File Explorer.
+
+Copying Keys: 
+
+1. Select the key you wish to copy from the dropdown box.
+2. After selecting your key, click on the copy button.
+3. Simply paste your key into Bruno or Postman using Ctr C.
