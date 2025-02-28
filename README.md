@@ -16,8 +16,9 @@ your needed keys.
 ## Creating the Key folder:
 
 1. Key folders should consist of a seperate .txt files with the keys on them.
-2. Make sure all of the key files you want to use exist in the same folder.
-3. You can import different key folders at anytime.
+2. Be sure to name the .txt file with the name you want to appear within the application.
+3. Make sure all of the key files you want to use exist in the same folder.
+4. You can import different key folders at anytime.
 
 ## Importing Keys:
 
