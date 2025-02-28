@@ -25,7 +25,7 @@ def copy_to_clipboard(text):
 
 
 def list_files(directory):
-    if directory != "":
+    if directory and os.path.exists(directory) and os.path.isdir(directory):
         contents = []
         files = os.listdir(directory)
         for file in files:

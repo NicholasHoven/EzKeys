@@ -8,6 +8,7 @@ from pathlib import Path
 root = tk.Tk()
 data_path = str(Path(__file__).parent).replace("\\src", "//data//main_path.txt") #This is the folder the program exists in.
 
+
 def clear_menu(): #this will completely clear the GUI menu
     for widget in root.winfo_children():
         widget.destroy()
