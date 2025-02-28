@@ -29,8 +29,9 @@ def list_files(directory):
         contents = []
         files = os.listdir(directory)
         for file in files:
-            contents.append(file)
-        # print(file)
+            # Remove the file extension
+            filename_without_extension = os.path.splitext(file)[0]
+            contents.append(filename_without_extension)
         return contents
     
 

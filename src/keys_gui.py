@@ -5,10 +5,8 @@ from tkinter import ttk
 from key_manager import *
 from pathlib import Path
 
-
 root = tk.Tk()
-data_path = str(Path(__file__).parent).replace("\\src", "//data//main_path.txt")
-
+data_path = str(Path(__file__).parent).replace("\\src", "//data//main_path.txt") #This is the folder the program exists in.
 
 def clear_menu(): #this will completely clear the GUI menu
     for widget in root.winfo_children():
@@ -31,12 +29,12 @@ def import_key_folder():
 def display_main_menu(data_path):
     clear_menu()
     root.title("EzKey Key Management")
-    root.geometry("350x200")
+    root.geometry("345x200")
     label = tk.Label(root, text="Select Key:")
-    label.place(x = 75)
+    label.place(x = 70)
     combobox = ttk.Combobox(root, values = list_files(data_path))
-    combobox.place(x = 140)
-    copy_button = tk.Button(root, text = "Copy", command=lambda: copy_key(data_path, combobox.get()))
+    combobox.place(x = 135)
+    copy_button = tk.Button(root, text = "Copy", command=lambda: copy_key(data_path, str(combobox.get()) + ".txt"))
     copy_button.place(x = 300)
     import_button = tk.Button(root, text = "Import", command=lambda: import_key_folder())
     import_button.place(x=5)
